@@ -3,7 +3,7 @@ library(sqldf)
 
 ## Open a file connection
 ## The household_power_consumption.txt has to be in the same folder as this R file.
-fileConn <- file("household_power_consumption.txt")
+fileConn <- file("household_power_consumption.txt") 
 
 
 ## select necessary data instead of reading the entire file.
